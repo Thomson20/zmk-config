@@ -77,7 +77,20 @@
                             &trans   &trans &kp SPACE    &mkp LCLK &mkp RCLK &mkp MCLK
                         >;
                 };
+                valheim_layer {
+// -----------------------------------------------------------------------------------------
+// | ESC  |  1  |  W  |  2  |  3  |  4  |   |      |      |      |      |      |      |
+// | TAB  |  A  |  S  |  D  |  F  |  5  |   |      |      |      |      |      |      |
+// | CTRL |  6  |  7  |  8  |  M  |  R  |   |      |      |      |      |      |      |
+//                    | SHFT|  E | SPACE|   |      |      |      |
+// -----------------------------------------------------------------------------------------
+    bindings = <
+        &kp ESC   &kp N1 &kp W  &kp N2 &kp N3 &kp N4    &none &none &none &none &none &none
+        &kp TAB   &kp A  &kp S  &kp D  &kp F  &kp N5    &none &none &none &none &none &none
+        &kp LCTRL &kp N6 &kp N7 &kp N8 &kp M  &kp R     &none &none &none &none &none &none
+                         &kp LSHFT &kp E &kp SPACE     &none &none &none
+                       >;
+                };
         };
 };
-
-
+ I
